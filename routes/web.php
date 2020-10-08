@@ -27,7 +27,7 @@ Route::get('search-es', function () {
 //            'title' => '1'
 //        ]
 //    ]);
-    $response = \App\Post::search('et');
+    $response = \App\Post::search('omnis est');
 
     return $response;
 });
